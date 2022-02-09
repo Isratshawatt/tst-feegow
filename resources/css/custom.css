@@ -1,0 +1,18 @@
+/* Definindo que quando houver a classe hide o elemento não será exibido */
+.hide {
+    display: none !important;
+}
+
+/* Definindo o link de navegação com a cor branca */
+.nav-link {
+    color: white !important;
+}
+
+/* Colocando uma borda abaixo quando o link de navegação estiver ativo */
+.nav-link.active {
+    border-bottom: 1px solid white;
+}
+
+.select2-container--open {
+    z-index: 9999999 !important;
+}
