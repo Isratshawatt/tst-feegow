@@ -7,57 +7,37 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Passos para rodar o projeto
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- [Faça uma copia do arquivo ".env.example" para ".env"].
+- [No arquivo ".env" insira os dados do banco(Foi utilizado o mysql)].
+- [Dentro da pasta do projeto, execute o comando "composer update"].
+- [Após o "composer update", execute o comando "php artisan key:generate"].
+- [Após o comando "php artisan key:generate", execute o comando "php artisan migrate"].
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Passos para executar a rotina de agendamento
+- [Registre-se através do menu inferior do lado direito na rota principal].
+- [Após registrar-se você terá acesso ao painel, no menu superior acesse o menu "Agendar" para novos agendamentos].
+- [Após acessar o menu "Agendar", selecione a especialidade e aguarde carregar os especialistas].
+- [Escolha um especialista e clique em agendar, após isso o sistema irá abrir um modal para preencher os dados (Nome, com conheceu, data de nascimento e cpf)].
+- [Após preenchimento dos dados acima, você pode solicitar os horarios disponiveis, após selecionar os horários você pode agendar a consulta].
+- [Após agendamento da consulta você será redirecionado para o painel principal, listando assim suas consultas, você pode remover o agendamento caso queira].
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Itens utilizados
+- [Webpack para versionamento e redução de tamanho dos arquivos js e css].
+- [Cache para que não solicite várias requisições do mesmo item em um curto intervalo de tempo].
+- [Componentização para melhor performance e organização].
+- [Autenticação por email e senha].
+- [Bootstrap 5](https://getbootstrap.com/).
+- [Jquery 3](https://jquery.com/).
+- [Laravel 9](https://laravel.com/docs/9.x).
+- [Sweet Alert](https://sweetalert2.github.io/).
+- [Jquery mask](https://igorescobar.github.io/jQuery-Mask-Plugin/).
+- [Select 2](https://select2.org/).
+- [PHP 7.4](https://www.php.net/).
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
